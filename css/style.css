@@ -1,0 +1,39 @@
+/* CLASE 1 */
+.contenedor{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid#333;
+}
+
+/*Elementos block*/
+.bloque{
+    background-color: #ffcdd2;
+    border: 2px solid#e57373;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+/*Elementos inline*/
+.en-linea{
+    background-color:#c8e6c9;
+    border: 2px solid#81c784;
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+/*Elementos inline-block*/
+.en-linea-bloque{
+    background-color: #bbdefb;
+    border: 2px solid#64b5f6;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+/*Pseudo clase*/
+.en-linea-bloque:hover{
+    background-color: #64b5f6;
+    color: white;
+}
