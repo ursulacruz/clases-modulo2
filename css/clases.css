@@ -61,6 +61,10 @@ a{
     color: inherit; 
 }
 
+a:hover {
+    color: #ff9d9d;
+}
+
 .clase-semanal p {
     margin: 0;
     font-size: 14px;
